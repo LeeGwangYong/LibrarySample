@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "11.0"
   spec.source       = { :git => "https://github.com/LeeGwangYong/LibrarySample.git", :tag => spec.version.to_s }
   spec.source_files  = "Sources/**/*"
+  spec.swift_versions   = "5.0"
 end
